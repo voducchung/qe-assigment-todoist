@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Rename 1",
+        "newName": "Plain text (renamed)"
+    },
+    {
+        "name": "Rename 2",
+        "newName": "**Markdown** *formatted*"
+    },
+    {
+        "name": "Rename 3",
+        "newName": "Hyperlinks: https://todoist.com/",
+        "expectedName": "Hyperlinks: [Todoist: The to do list to organize work & life](https://todoist.com/)"
+    }
+]

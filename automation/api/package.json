@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API test project using cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress": "cypress open"
+  },
+  "author": "Chung Vo",
+  "license": "ISC",
+  "devDependencies": {
+    "har-validator": "^5.1.5"
+  },
+  "dependencies": {
+    "cypress": "^9.1.0",
+    "uuid": "^8.3.2"
+  }
+}

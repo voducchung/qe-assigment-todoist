@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Plain text",
+        "due": {
+            "string": "today"
+        }
+    },
+    {
+        "name": "**Markdown** *formatted*",
+        "due": {
+            "string": "today"
+        }
+    },
+    {
+        "name": "Hyperlink: https://todoist.com/",
+        "due": {
+            "string": "today"
+        },
+        "expectedName": "Hyperlink: [Todoist: The to do list to organize work & life](https://todoist.com/)"
+    },
+    {
+        "name": "Full date 1",
+        "due": {
+            "string": "today"
+        }
+    },
+    {
+        "name": "Full date 2",
+        "due": {
+            "string": "tomorrow"
+        }
+    },
+    {
+        "name": "Floating date with time 1",
+        "due": {
+            "string": "today at 10pm"
+        }
+    },
+    {
+        "name": "Floating date with time 2",
+        "due": {
+            "string": "tomorrow at 9am"
+        }
+    },
+    {
+        "name": "With time and timezone 1",
+        "due": {
+            "string": "1 January 2021 at 12:00 America/Chicago"
+        }
+    },
+    {
+        "name": "With time and timezone 2",
+        "due": {
+            "string": "tomorrow at 10am Asia/Jakarta"
+        }
+    }
+]
