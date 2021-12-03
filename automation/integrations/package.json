@@ -1,0 +1,26 @@
+{
+  "name": "integrations",
+  "version": "1.0.0",
+  "description": "Integrations test project using cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voducchung/qe-assigment-todoist.git"
+  },
+  "author": "Chung Vo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voducchung/qe-assigment-todoist/issues"
+  },
+  "homepage": "https://github.com/voducchung/qe-assigment-todoist#readme",
+  "devDependencies": {
+    "har-validator": "^5.1.5"
+  },
+  "dependencies": {
+    "cypress": "^9.1.0"
+  }
+}
