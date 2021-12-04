@@ -2,6 +2,7 @@
 
 import { calculateExpectedDueDate } from '../../support/utils/test-utils'
 import { deleteAllTodoItems } from '../../support/utils/api-utils'
+import { TODOIST_PASSWORD, TODOIST_USERNAME } from '../../../settings'
 
 context('Create todo item', () => {
     before('Clean all tasks', () => {
@@ -9,7 +10,7 @@ context('Create todo item', () => {
     })
 
     beforeEach('Login and go to Inbox', () => {
-        cy.login()
+        cy.login(TODOIST_USERNAME, TODOIST_PASSWORD)
         cy.goToInbox()
     })
 

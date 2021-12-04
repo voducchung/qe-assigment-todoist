@@ -27,16 +27,14 @@
 /// <reference types="cypress" />
 
 import {
-    TODOIST_PASSWORD,
-    TODOIST_USERNAME,
     TODOIST_WEB_BASE_URL
 } from '../../settings'
 
 // `login(username, password)` - login todoist with username and password
 Cypress.Commands.add('login', (username, password) => {
     cy.visit(`${TODOIST_WEB_BASE_URL}/users/showlogin`)
-    cy.get('#email').type(TODOIST_USERNAME)
-    cy.get('#password').type(TODOIST_PASSWORD)
+    cy.get('#email').type(username)
+    cy.get('#password').type(password)
     cy.get('button.submit_btn').click()
 })
 

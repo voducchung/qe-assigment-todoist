@@ -1,5 +1,6 @@
 /// <reference types="cypress" />
 
+import { TODOIST_PASSWORD, TODOIST_USERNAME } from "../../../settings"
 import { deleteAllTodoItems } from "../../support/utils/api-utils"
 
 context('Update todo item', () => {
@@ -8,7 +9,7 @@ context('Update todo item', () => {
     })
 
     beforeEach('Login and go to Inbox', () => {
-        cy.login()
+        cy.login(TODOIST_USERNAME, TODOIST_PASSWORD)
         cy.goToInbox()
     })
 
