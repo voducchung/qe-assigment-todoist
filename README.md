@@ -2,7 +2,7 @@
 
 ## Test plans:
 
-All test plans are placed under [test-plans](./test-plans) folder:
+All test plans are shared Google docs:
 
 - [Item Management Feature TRD](https://docs.google.com/document/d/1Ys1FRKExNcPI3sBmEzAc5yqO-b3JDfT67gSklyCl_mA/edit?usp=sharing) for Item Management feature
 - [Google Calendar Integration TRD](https://docs.google.com/document/d/1ESzgVqJkDfSyI74rrQBwqtjcih-NYX8HFNiqpgBsUWw/edit?usp=sharing) for Google Calendar integration
