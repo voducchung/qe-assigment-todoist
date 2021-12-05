@@ -4,8 +4,8 @@
 
 All test plans are placed under [test-plans](./test-plans) folder:
 
-- [Item-management-feature-TRD.pdf](./test-plans/Item-management-feature-TRD.pdf) for Item Management feature
-- [Google-calendar-integration-TRD.pdf](./test-plans/Google-calendar-integration-TRD.pdf) for Google Calendar integration
+- [Item Management Feature TRD](https://docs.google.com/document/d/1Ys1FRKExNcPI3sBmEzAc5yqO-b3JDfT67gSklyCl_mA/edit?usp=sharing) for Item Management feature
+- [Google Calendar Integration TRD](https://docs.google.com/document/d/1ESzgVqJkDfSyI74rrQBwqtjcih-NYX8HFNiqpgBsUWw/edit?usp=sharing) for Google Calendar integration
 
 Note: I call it TRD (Test Requirements Document) where also includes test plan (list of tests) and test approach.
 
@@ -15,9 +15,10 @@ Automations are placed under [automation](./automation) folder:
 
 - [api](./automation/api) for Item Management API testing
 - [ui](./automation/ui) for Item Management UI testing
-- Unfortunately, due to time limitation from my current job, I haven't been able to provide an automation solution for Google Calendar integration. I would appreciate if reviewers could evaluate my automation skills via its TRD. I would be happy to implement the automation for it on the incoming weekends if I may.
+- [integrations](./automation/integrations) for Google Calendar integration testing
 
 Under each automation project, there is a README where you can find guide to run tests:
 
 - [API](./automation/api/README.md) for Item Management API testing
 - [UI](./automation/ui/README.md) for Item Management UI testing
+- [Integration](./automation/integrations/README.md) for Item Management UI testing. For test approach, Only tests that the integration has been setup in advance are automated this time.
