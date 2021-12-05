@@ -1,0 +1,10 @@
+export const TODOIST_API_BASE_URL = process.env.TODOIST_API_BASE_URL || 'https://api.todoist.com/sync/v8'
+export const TODOIST_API_TOKEN = process.env.TODOIST_API_TOKEN
+export const TODOIST_PROJECT_ID = process.env.TODOIST_PROJECT_ID
+export const TODOIST_WEB_BASE_URL = process.env.TODOIST_WEB_BASE_URL || 'https://todoist.com'
+export const TODOIST_USERNAME = process.env.TODOIST_USERNAME
+export const TODOIST_PASSWORD = process.env.TODOIST_PASSWORD
+export const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID
+export const GOOGLE_CLIENT_SECRETE = process.env.GOOGLE_CLIENT_SECRETE
+export const GOOGLE_REFRESH_TOKEN = process.env.GOOGLE_REFRESH_TOKEN
+export const SYNC_DURATION = process.env.SYNC_DURATION || 5000 // In miliseconds
